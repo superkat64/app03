@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders learn react link 1`] = `
+<div
+  class="App"
+>
+  <header
+    class="App-header"
+  >
+    <logo
+      class="App-logo"
+      height="100px"
+      variant="inky"
+    />
+  </header>
+  <div>
+    <button
+      variant="primary"
+    >
+      Learn React
+    </button>
+    <div>
+      <img
+        alt="React Testing Library"
+        src="octopus.png"
+      />
+    </div>
+    <button
+      variant="primary"
+    >
+      React Testing Library
+    </button>
+  </div>
+</div>
+`;

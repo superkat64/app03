@@ -1,0 +1,5 @@
+node_modules
+fileTransformer.js
+*.config.js
+*.svg
+*.snap
