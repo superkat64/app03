@@ -1,0 +1,16 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 280px;
+  padding: 5px;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-image {
+  width: 100%;
+}
