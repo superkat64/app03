@@ -63,12 +63,11 @@ module.exports = {
   },
   plugins: [
     new ModuleFederationPlugin({
-      name: 'app03',
+      name: 'kitten_list',
       filename: 'remoteEntry.js',
       remotes: {
         ci_modular_header: 'ci_modular_header@http://localhost:3000/remoteEntry.js',
       },
-      exposes: {},
       shared: { 
         react: { 
           singleton: true,
